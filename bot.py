@@ -1,14 +1,14 @@
 from telethon import TelegramClient, events
 from datetime import datetime
 
-api_id = 123456     # 🔁 Your API ID
-api_hash = 'your_api_hash'  # 🔁 Your API Hash
+api_id = 21552265     # 🔁 Your API ID
+api_hash = '1c971ae7e62cc416ca977e040e700d09'  # 🔁 Your API Hash
 session_name = 'userbot'
 
 client = TelegramClient(session_name, api_id, api_hash)
 
 # ✅ OWNER + ADMINS who can control the bot
-ADMINS = [123456789, 987654321]  # 🔁 Add your Telegram user IDs
+ADMINS = [7408008545]  # 🔁 Add your Telegram user IDs
 
 # ✅ Broadcast target chat/group IDs
 broadcast_targets = [-1001234567890, -1009876543210]  # 🔁 Your group IDs
